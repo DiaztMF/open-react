@@ -8,6 +8,7 @@ import Hero from "@/components/hero-home";
 import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
+import InquiryForm from "@/components/inquiry-form";
 import Cta from "@/components/cta";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Workflows />
       <Features />
       <Testimonials />
+      <InquiryForm />
       <Cta />
     </>
   );

@@ -13,8 +13,8 @@ A dark-mode developer and open-source landing page template built with Next.js 1
 Clone the repository and install dependencies with `pnpm`:
 
 ```bash
-git clone https://github.com/DiaztMF/open-react-template.git
-cd open-react-template
+git clone https://github.com/DiaztMF/open-react.git
+cd open-react
 pnpm install
 ```
 
@@ -80,7 +80,7 @@ export function HeroVideo() {
 ## Architecture & Development Guides
 
 ```
-open-react-template/
+open-react/
 ├── app/                     # Next.js 15 App Router structure
 │   ├── (auth)/              # Route group for authentication pages
 │   ├── layout.tsx           # Global layout and font configuration
